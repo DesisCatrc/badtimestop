@@ -24,7 +24,7 @@ window.onload = function() {
     clearInterval(now);
     min = "00";
     tens = "00";
-    seconds = "0";
+    seconds = "00";
     appendMin.innerHTML = min;
     appendTens.innerHTML = tens;
     appendSeconds.innerHTML = seconds;
@@ -59,7 +59,7 @@ window.onload = function() {
       seconds = 0;
       appendTens.innerHTML = "0" + 0;
     }
-    if (mins > 9){
+    if (mins > 9) {
       appendMin.innerHTML = mins;
     }
   }
